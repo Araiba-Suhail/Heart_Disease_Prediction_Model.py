@@ -5,7 +5,7 @@ Project Overview
 This project implements a machine learning model to predict the risk of heart disease based on clinical and demographic patient data. Using the UCI Heart Disease dataset, we build a logistic regression classifier to identify patients at risk, supporting early medical intervention.
 
 Objective
-Build a binary classification model to predict whether a person is at risk of heart disease based on health metrics, with comprehensive evaluation using accuracy, ROC curve, and confusion matrix.
+Build a binary classification model to predict whether a person is at risk of heart disease based on health metrics, with comprehensive evaluation using accuracy, and confusion matrix.
 
 Dataset
 Source: UCI Heart Disease Dataset (Cleveland)
@@ -39,6 +39,8 @@ Clone the repository:
 -Navigate to directory cd Heart_Disease_Prediction_Model.py
 Run the Model:
 -python Heart_Disease_Prediction_Model.py
+
+
 Implementation
 Data Preprocessing:
 1. Data Loading: Automatically fetches data from UCI repository
@@ -54,7 +56,7 @@ Model Training:
 
 Results
 Model Performance:
-The logistic regression model achieves accuracy (88.3 %) on the test set with a confusion matrix showing prediction performance.
+The logistic regression model achieves accuracy (88.3 %) on the test set with a confusion matrix showing true/false positives and negatives.
 
 Key Findings:
 1. Dataset contains 303 records with 14 features
@@ -101,6 +103,13 @@ Code Features
 
 License
 MIT License - See LICENSE file for details
+
 Medical Disclaimer
 This model is for educational and research purposes only. It should not be used for clinical diagnosis or medical decision-making. Always consult with healthcare professionals for medical advice.
 
+Contributing:
+-Fork the repository
+-Create a feature branch
+-Commit changes with descriptive messages
+-Push to the branch
+-Open a Pull Request
